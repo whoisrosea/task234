@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/task234/static/css/main.25685e9e.css",
+    "main.js": "/task234/static/js/main.51d3f6a4.js",
+    "static/js/453.c48fccca.chunk.js": "/task234/static/js/453.c48fccca.chunk.js",
+    "static/media/DINPro-Medium.woff2": "/task234/static/media/DINPro-Medium.06f7b04f9044252eb06b.woff2",
+    "static/media/DINPro-Bold.woff2": "/task234/static/media/DINPro-Bold.1db735ab632d30e6be91.woff2",
+    "static/media/DINPro-Black.woff2": "/task234/static/media/DINPro-Black.9f2d8ca3fa6adffeaa76.woff2",
+    "static/media/DINPro-Light.woff2": "/task234/static/media/DINPro-Light.601c8d1f6716b10c8c4d.woff2",
+    "static/media/DINPro-CondensedRegular.woff2": "/task234/static/media/DINPro-CondensedRegular.aa661f4d135a80a388a3.woff2",
+    "static/media/Group 1.svg": "/task234/static/media/Group 1.b88cbc9cb456d0aeba800b6f413bb0cc.svg",
+    "static/media/star.svg": "/task234/static/media/star.ea591eff7fe1a3f8aee6dc1f6112791e.svg",
+    "static/media/Иконки.svg": "/task234/static/media/Иконки.4d2f627aa77628d216c7d4d4b281a64b.svg",
+    "static/media/reply.svg": "/task234/static/media/reply.4fa34cb57a5cddc6a09a8a2c224c55af.svg",
+    "index.html": "/task234/index.html",
+    "static/media/Icon (Stroke).svg": "/task234/static/media/Icon (Stroke).4af82459beb7a7bfd30d53d6e5676762.svg",
+    "static/media/Иконки-1.svg": "/task234/static/media/Иконки-1.6a262bd28b1434ae0a1748c97d916799.svg",
+    "static/media/close.svg": "/task234/static/media/close.2eb8316dae47727721dee4ccbb34a40f.svg",
+    "static/media/arrowup.svg": "/task234/static/media/arrowup.a15e23eb514d1ca8e3737b8a997f5eb1.svg",
+    "static/media/Rectangle 726.svg": "/task234/static/media/Rectangle 726.afdec179395ffa1b45a1d37001ffea42.svg",
+    "main.25685e9e.css.map": "/task234/static/css/main.25685e9e.css.map",
+    "main.51d3f6a4.js.map": "/task234/static/js/main.51d3f6a4.js.map",
+    "453.c48fccca.chunk.js.map": "/task234/static/js/453.c48fccca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25685e9e.css",
+    "static/js/main.51d3f6a4.js"
+  ]
+}
