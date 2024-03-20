@@ -1,0 +1,43 @@
+.logo-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.logo-component__image {
+  width: 150px; /* Example size, adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 32px; /* Space below the logo */
+}
+
+.logo-component__content {
+  text-align: center; /* Center the text inside this div */
+}
+
+.logo-component__hashtags {
+  list-style: none; /* Removes default list styles */
+  padding: 0; /* Removes default padding */
+  display: flex; /* Aligns list items in a row */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px; /* Spacing between items */
+  margin-top: 0;
+  margin-bottom: 16px; /* Space below the hashtags list */
+}
+
+.logo-component__hashtag {
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: black; /* Text color */
+  transition: ease 0.3s;
+  &:hover {
+    color: #f40f56;
+  }
+}
+
+.logo-component__hashtag-link {
+  color: inherit; /* Inherits color from parent */
+  text-decoration: none; /* No underline */
+}

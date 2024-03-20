@@ -1,0 +1,63 @@
+.share-modal {
+  background-color: #f2f2f2;
+  width: 608px;
+  border-radius: 12px;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.share-modal__header {
+  position: relative;
+  padding: 0 157px;
+  background-color: white;
+  border-radius: 12px;
+  .share-modal__close-modal {
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    top: 16px;
+    right: 16px;
+    transition: ease 0.5s;
+    &:hover {
+      cursor: pointer;
+      transform: rotate(90deg);
+    }
+  }
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 24px;
+    margin-bottom: 53px;
+    color: #f40f56;
+    font-size: 14px;
+  }
+}
+
+.share-modal__footer {
+  display: flex;
+  height: 61px;
+  gap: 4px;
+  .share-modal__link {
+    text-transform: uppercase;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 900;
+    flex-grow: 1;
+    border-radius: 12px;
+    background-color: white;
+  }
+  .share-modal__copy-button {
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 24px 32px;
+    border: none;
+    border-radius: 12px;
+    background-color: #f40f56;
+    color: white;
+  }
+}

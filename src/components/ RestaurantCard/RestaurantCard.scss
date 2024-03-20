@@ -1,0 +1,109 @@
+.restaurant-card {
+  width: 384px;
+  height: 294px;
+  margin-bottom: 32px;
+}
+
+.restaurant-card__image {
+  position: relative;
+  height: 230px;
+  border-radius: 8px;
+  background-image: url("https://s3-alpha-sig.figma.com/img/1c39/7fba/5380cd12d6e0ef24eb4bc72e4fc18bcf?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pmQ4--ro1aKq6qR2F6b8Skw0AFyUD2UCu9kJcRezvzs4n0C2PF19rao7xanxv99FA8ixnuzutYuwZkkZ~s3tBNoksT5gA-2cuXDMom3nWjKVAKtdLYOzLzNWLn3E9l~XD7gOqrPRSEkujm6sTiFIzzUqt754X7ceDOFx~vIEC0as-bjz0qWZLUl5bGTd4UIZlxDJ8zkkKHThOCjNEliLkSqJJQHLvcH7DModaaB1kQzwZhtkU3Khx8z-zMzSS07NKIhC-0IqzuyNUA2SIiP8iPxA17H6HIyyRlfbXqaweapqxJYzWKUThyfBjflWDRtT2r~u-zNNmsqNimevxPwYwQ__");
+}
+
+.restaurant-card__close-time,
+.restaurant-card__rate-stars,
+.restaurant-card__rate-position {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  img {
+    height: 14px;
+    width: 14px;
+  }
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  width: fit-content;
+  padding: 8px 12px;
+}
+
+.restaurant-card__close-time,
+.restaurant-card__rate-position {
+  background-color: white;
+  color: #f40f56;
+}
+
+.restaurant-card__average-check {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.restaurant-card__rate-stars {
+  align-items: center;
+  color: white;
+  background-color: #f40f56;
+}
+
+/* Combining absolute position properties */
+.restaurant-card__close-time,
+.restaurant-card__rate {
+  position: absolute;
+  left: 8px;
+  top: 8px; /* Default top for .restaurant-card__close-time */
+}
+
+.restaurant-card__rate {
+  bottom: 8px;
+  top: auto; /* Override for .restaurant-card__rate */
+  display: flex;
+  gap: 8px;
+}
+
+.restaurant-card__info {
+  padding: 8px 8px 16px 8px;
+}
+.restaurant-card__info--inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .restaurant-card__header {
+    h2 {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    p {
+      color: #808080;
+      margin: 0;
+      font-size: 10px;
+      font-weight: 700;
+      strong {
+        color: black;
+      }
+    }
+  }
+  .restaurant-card__actions {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    .restaurant-card__share,
+    .restaurant-card__favorite {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      height: 40px;
+      width: 40px;
+      transition: ease 0.3s;
+      &:hover {
+        cursor: pointer;
+        background-color: rgba(244, 15, 86, 0.05);
+      }
+      img {
+        height: 16px;
+        width: 16px;
+      }
+    }
+  }
+}
